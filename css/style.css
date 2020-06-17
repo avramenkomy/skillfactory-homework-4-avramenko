@@ -721,7 +721,7 @@ margin-bottom: 0px;
 .feedback-input input {
     padding-left: 50px;
     width: 46%;
-    max-width: 290px;
+    /* max-width: 290px; */
     min-height: 67px;
     border-radius: 10px;
     border-width: 0.1px;
@@ -824,7 +824,7 @@ margin-bottom: 0px;
 
 /* media for stage-6 */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1089px) {
     .stage-6 {
         flex-wrap: wrap;
         justify-content: flex-start;
@@ -833,6 +833,21 @@ margin-bottom: 0px;
     .stage-6-left {
         margin-left: 15px;
         margin-bottom: 15px;
+    }
+
+    .feedback-input {
+        flex-direction: column;
+    }
+
+    .feedback-input input {
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 15px;
+    }
+
+    .feedback-input input::placeholder {
+        padding-left: 50px;
+        margin-left: 0px;
     }
 
     .contact-info {
