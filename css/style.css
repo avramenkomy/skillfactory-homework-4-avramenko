@@ -827,6 +827,7 @@ margin-bottom: 0px;
 @media screen and (max-width: 950px) {
     .stage-6 {
         flex-wrap: wrap;
+        justify-content: flex-start;
     }
 
     .stage-6-left {
