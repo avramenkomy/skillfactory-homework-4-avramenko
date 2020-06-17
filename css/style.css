@@ -534,6 +534,7 @@ margin-bottom: 0px;
 
 .mark ul {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .mark a {
@@ -824,7 +825,7 @@ margin-bottom: 0px;
 
 /* media for stage-6 */
 
-@media screen and (max-width: 1089px) {
+@media screen and (max-width: 950px) {
     .stage-6 {
         flex-wrap: wrap;
         justify-content: flex-start;
