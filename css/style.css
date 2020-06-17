@@ -451,6 +451,15 @@ margin-bottom: 0px;
     object-fit: cover;
 }
 
+/* media for stage-3 */
+
+@media screen and (max-width: 950px) {
+    .stage-3 ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
 /* stage-4 */
 
 .stage-4 {
